@@ -1,0 +1,15 @@
+@keyframes loading {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360);
+  }
+}
+.wheel {
+  animation: loading;
+  animation-timing-function: linear;
+  width: 100px;
+  margin-left: 40%;
+  margin-top: 20%;
+}

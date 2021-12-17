@@ -1,0 +1,12 @@
+.cute_girl {
+  width: 30%;
+  height: 30%;
+  float: left;
+  padding-top: 15%;
+}
+@media only screen and (max-width: 600px) {
+  .cute_girl {
+    float: none;
+    padding: 0;
+  }
+}
